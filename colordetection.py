@@ -2,7 +2,8 @@
 """
 Created on Thu Feb  8 17:18:52 2018
 
-@author: Student
+@author: William Egbert
+Open Cv version 3.3.1
 """
 
 import cv2
