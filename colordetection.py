@@ -11,17 +11,14 @@ import numpy as np
 
 cap = cv2.VideoCapture(0)
 
-def nothing(x):
-    pass
-
 cv2.namedWindow('img',cv2.WINDOW_AUTOSIZE)
-cv2.createTrackbar('HSV','img',0,169,nothing)
-cv2.createTrackbar('S','img',0,255,nothing)
-cv2.createTrackbar('V','img',0,255,nothing)
-cv2.createTrackbar('SLow','img',0,255,nothing)
-cv2.createTrackbar('SHigh','img',0,255,nothing)
-cv2.createTrackbar('VLow','img',0,255,nothing)
-cv2.createTrackbar('VHigh','img',0,255,nothing)
+cv2.createTrackbar('H','img',0,179, nothing)
+cv2.createTrackbar('S','img',0,255, nothing)
+cv2.createTrackbar('V','img',0,255, nothing)
+cv2.createTrackbar('SLow','img',0,255, nothing)
+cv2.createTrackbar('SHigh','img',0,255, nothing)
+cv2.createTrackbar('VLow','img',0,255, nothing)
+cv2.createTrackbar('VHigh','img',0,255, nothing)
 
 
 while (1):
